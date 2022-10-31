@@ -1,11 +1,4 @@
-import java.util.*;
-
 public class Solution{
-	public static void main(String[] args){
-		int x[] = new int[]{14, 27, 1, 4, 2, 50, 3, 1},
-		y[] = new int[]{2, 4, 51, 3, 1, 1, 14, 27, 50};
-		System.out.println(solution(x,y));
-	}
 	public static int solution(int[] x, int[] y){
 		sort(x);
 		sort(y);
